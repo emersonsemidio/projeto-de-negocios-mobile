@@ -29,8 +29,8 @@ h2 {
 	font-style: italic;
 }
 
-hr {
-	color: black;
+p {
+	margin-bottom: 16px;
 }
 
 #header {
@@ -98,6 +98,14 @@ hr {
 
 #home .text h1 {
 	margin-bottom: 16px;
+}
+
+.section#home .container {
+	display: flex;
+}
+
+.section#about .container {
+	display: flex;
 }
 
 .container span {
@@ -203,15 +211,16 @@ nav.show ul.grid {
 .button {
 	color: white;
 	background-color: darkseagreen;
-	display: inline-flex;
 
 	height: 70px;
 	width: 160px;
-	align-items: center;
-	padding-left: 48px;
-	padding-right: 48px;
 	border-radius: 4px;
 	transition: background 0.5s;
+
+	display: block;
+	padding: 12px;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .button:hover {
@@ -229,10 +238,12 @@ nav.show ul.grid {
 
 #cardapio {
 	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.8);
-	background: ;
+	/* background: ; */
 	text-align: center;
-	width: 100%;
+	width: 80%;
 	border-radius: 4px;
+	margin: 0 auto;
+	padding: 0px 10px 0px 10px;
 }
 
 #cardapio .unidade {
@@ -308,6 +319,11 @@ main {
 	margin-bottom: 16px;
 }
 
+.section#contact {
+	width: 50%;
+	margin: 0 auto;
+}
+
 .cards.grid {
 	gap: 24px;
 }
@@ -332,6 +348,10 @@ main {
 	display: flex;
 	gap: 32px;
 	align-items: center;
+}
+
+.card ul li {
+	margin-bottom: 16px;
 }
 
 footer {

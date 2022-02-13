@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Artesanato</title>
+    <title>Pizzaria</title>
     <link rel="stylesheet" href="style.css" />
   </head>
  
@@ -13,21 +13,16 @@
     <header id="header">
       <nav class="container">
         <a href="#home"><h1>Logo<span>marca</span></h1></a>
- 
-       
-        <div class="menu">
-          <ul class="grid">
-						<li><a href="#home">Inicio</a></li>
-						<li><a href="#about">Sobre</a></li>
-            <li><a href="#services">Serviços</a></li>
-            <li><a href="#testimonials">Depoimentos</a></li>
-            <li><a href="#contact">Contato</a></li>
-          </ul>
-        </div>
 
-				<div class="toggle icone-menu"><img src="./imagens/barra-de-menu.png" alt="abrir menu"></div>
-				<div class="toggle icone-close"><img src="./imagens/x.png" alt="fechar menu"></div>
-       
+				<ul style="display: flex; justify-content: space-between; gap: 12px; padding: 0 16px; flex-grow: 1;">					
+					<li><a href="#home">Inicio</a></li>
+					<li><a href="#about">Sobre</a></li>
+					<li><a href="#services">Serviços</a></li>
+					<li><a href="#testimonials">Depoimentos</a></li>
+					<li><a href="#contact">Contato</a></li>
+					<li><a href="#cardapio">Cardápio</a></li>
+
+				</ul>
       </nav>
     </header>
  
@@ -41,9 +36,9 @@
        <div class="text">
         
  
-        <h1 class="title">Abaixo algumas informações sobre nós</h1>
+        <h1 class="title">Pizzaria</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet maiores, blanditiis vel quod saepe non! Laboriosam distinctio soluta itaque blanditiis reprehenderit a saepe vitae nobis sunt. Perspiciatis voluptate illum deserunt.</p>
-        <a href="#cardapio" class="button">Cardápio</a>
+        <a href="#forms" class="button">Peça seu Delivery aqui</a>
        </div>
       </div>
       </section>
@@ -401,10 +396,10 @@
 						<img src="./imagens/pizzaria.jpg" alt="imagem3">
 					</div>
 					<div class="text"></div>
-					<h2 class="title">Sobre nós</h2>
-					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus ab asperiores laudantium nemo, accusantium perferendis dolorum error nihil distinctio. Vel harum maxime, odio rem exercitationem quaerat et quidem esse quasi!</p>
-					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus ab asperiores laudantium nemo, accusantium perferendis dolorum error nihil distinctio. Vel harum maxime, odio rem exercitationem quaerat et quidem esse quasi!</p>
-					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus ab asperiores laudantium nemo, accusantium perferendis dolorum error nihil distinctio. Vel harum maxime, odio rem exercitationem quaerat et quidem esse quasi!</p>
+					<div>
+						<h2 class="title">Sobre nós</h2>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus ab asperiores laudantium nemo, accusantium perferendis dolorum error nihil distinctio. Vel harum maxime, odio rem exercitationem quaerat et quidem esse quasi!</p>
+					</div>
 				</div>
 			</section>
 
@@ -414,17 +409,21 @@
 
 			<section class="section" id="services">
 				<div class="container grid">
-					<header><h2>Serviços</h2></header>
+					<header><h2></h2></header>
 					<div class="cards grid">
 						<div class="card">
 							<div class="icon-"></div>
-							<h3 class="title">Titulo1</h3>
+							<h3 class="title">Delivery</h3>
 							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, voluptas animi. Ducimus, recusandae quibusdam animi reprehenderit odio explicabo. Perspiciatis repudiandae similique sequi vel, iure perferendis illum cum earum tempore dicta?</p>
 						</div>
 						<div class="card">
 							<div class="icon-"></div>
-							<h3 class="title">Titulo2</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, omnis sunt? Possimus aspernatur esse laborum libero eos fuga sint officiis debitis, repellat dicta consectetur! Iusto maiores tempore ratione ea cum.</p>
+							<h3 class="title">Rodizio</h3>
+							<ul>
+								<li>De Segunda à Quinta-feira a partir de R$39,90 com Refil Incluso</li>
+								<li>De Sexta à Domingo e feriados a partir de R$49,90 com Refil Incluso</li>	
+							</ul>
+							
 						</div>
 						<div class="card">
 							<div class="icon-"></div>
@@ -442,7 +441,7 @@
 			<section class="section" id="testimonials">
 				<div class="container grid">
 					<header>
-						<h2>Depoimentos</h2>
+						<h2></h2>
 						</header>
 						<div class="cards grid">
 							<div class="card">
@@ -470,7 +469,7 @@
 			<section class="section" id="contact">
 				<div class="container grid">
 					<header>
-						<h2>Contatos</h2>
+						<h2></h2>
 					</header>
 					<div class="card icone grid">
 						<div class="contato-social-media">
@@ -495,9 +494,20 @@
 					</div>
 				</div>
 			</section>
+
+			<div class="divider">
+ 
+      </div>
      
        
       </div>
+
+			<section class="section" id="forms">
+				<div class="container">
+					<form action="">Aqui ficará o formulário de Delivery</form>
+				</div>
+
+			</section>
     </main>
  
     <footer>
