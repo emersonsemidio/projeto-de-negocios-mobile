@@ -6,8 +6,6 @@ Este projeto simula um site completo para uma pizzaria, com foco em apresentar a
 
 ### 1. **Cardápio**
 - O site apresenta uma seção de **cardápio** onde o usuário pode visualizar uma lista detalhada de pizzas disponíveis.
-- Cada pizza é acompanhada de uma breve descrição dos ingredientes, além de informações sobre preço e tamanhos disponíveis.
-- O cardápio também é categorizado em opções como pizzas vegetarianas, veganas, tradicionais, e especiais.
 
 ### 2. **Delivery**
 - A seção de **delivery** permite ao usuário simular a funcionalidade de pedidos online.
@@ -27,11 +25,6 @@ Este projeto simula um site completo para uma pizzaria, com foco em apresentar a
 - O site oferece diversas formas de **contato**, como simulação de links para WhatsApp, e-mail e telefone.
 - Além disso, há ícones e links fictícios para redes sociais, como Facebook, Instagram e Twitter, onde os usuários podem "acompanhar" as novidades e promoções da pizzaria.
 - É possível enviar mensagens diretas simuladas através de um formulário de contato.
-
-## Tecnologias Utilizadas
-- **HTML5**: Estrutura básica do site.
-- **CSS3**: Estilização e layout das páginas.
-- **JavaScript**: Interatividade e validações de formulários.
 
 ## Link para acessar o site:
 https://emersonsemidio.github.io/projeto-de-negocios-mobile/
