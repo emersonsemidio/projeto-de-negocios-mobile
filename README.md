@@ -32,3 +32,10 @@ Este projeto simula um site completo para uma pizzaria, com foco em apresentar a
 - **HTML5**: Estrutura básica do site.
 - **CSS3**: Estilização e layout das páginas.
 - **JavaScript**: Interatividade e validações de formulários.
+
+## Link para acessar o site:
+https://emersonsemidio.github.io/projeto-de-negocios-mobile/
+
+## Preview do site:
+![image](https://github.com/user-attachments/assets/c7600703-1fb6-4773-9832-17aff87a93be)
+
